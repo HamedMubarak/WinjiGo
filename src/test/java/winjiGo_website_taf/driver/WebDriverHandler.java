@@ -9,13 +9,12 @@ public class WebDriverHandler {
 
     private static WebDriver webDriver;
 
-    public WebDriverHandler(){
+    public WebDriverHandler() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         webDriver = new ChromeDriver(options);
-    }
-
+ }
     public static WebDriver getWebDriver() { return webDriver;}
 
     public void navigateToUrl(String link) {
