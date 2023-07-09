@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="WinjiGo">
+    <test name="aspiring-consumption-breakdown-tab ">
+        <classes>
+            <class name="winjiGo_website_taf.pages.BasePage"/>
+            <class name="winjiGo_website_taf.tests.login.LoginRunner"/>
+        </classes>
+    </test>
+</suite>

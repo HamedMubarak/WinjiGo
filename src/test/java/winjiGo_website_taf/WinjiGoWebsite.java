@@ -1,9 +1,6 @@
 package winjiGo_website_taf;
 
-import winjiGo_website_taf.pages.AddCourse;
-import winjiGo_website_taf.pages.Courses;
-import winjiGo_website_taf.pages.Login;
-import winjiGo_website_taf.pages.Home;
+import winjiGo_website_taf.pages.*;
 
 public class WinjiGoWebsite {
 

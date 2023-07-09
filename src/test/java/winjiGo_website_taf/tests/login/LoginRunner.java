@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/java/winjiGo_website_taf/tests/login",
-        glue = {"winjiGo_website_taf.tests"},
+        glue = "winjiGo_website_taf",
         monochrome = true
 )
 

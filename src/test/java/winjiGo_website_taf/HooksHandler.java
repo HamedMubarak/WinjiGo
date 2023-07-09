@@ -18,7 +18,7 @@ public class HooksHandler extends BaseTest {
         webDriverHandler = new WebDriverHandler();
         browser = new Browser();
         testData = new ConfigProperties("resources/Data.properties");
-        configBrowser = new ConfigProperties("resources/configBrowser.properties");
+        configBrowser = new ConfigProperties("resources/ConfigBrowser.properties");
         webDriverHandler.navigateToUrl(configBrowser.getProperty("url"));
     }
 

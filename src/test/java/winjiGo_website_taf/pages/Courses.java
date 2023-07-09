@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import winjiGo_website_taf.driver.WebDriverHandler;
 
-public class Courses {
+public class Courses{
 
     private By addCourseButton = By.id("btnListAddCourse");
 

@@ -6,7 +6,7 @@ import winjiGo_website_taf.utils.ConfigProperties;
 
 public class BaseTest {
 
-    protected static WebDriverHandler webDriverHandler;
+    protected WebDriverHandler webDriverHandler;
     protected static Browser browser;
     protected static ConfigProperties configBrowser;
     protected static ConfigProperties testData;

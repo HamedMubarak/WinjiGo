@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import winjiGo_website_taf.driver.WebDriverHandler;
 
-public class Login{
+public class Login {
 
    private By emailField =By.id("Email");
     private By passwordField =By.id("inputPassword");

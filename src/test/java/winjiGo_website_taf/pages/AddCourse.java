@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import winjiGo_website_taf.driver.WebDriverHandler;
 
-public class AddCourse {
+public class AddCourse{
 
     private By createButton = By.id("btnSaveAsDraftCourse");
 
